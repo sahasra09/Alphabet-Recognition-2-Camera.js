@@ -58,7 +58,7 @@ export default class PickImage extends React.Component{
             type:type
         }
         data.append("digit",fileToUpload)
-        fetch("http://f292a3137990.ngrok.io/predict-digit",{
+        fetch("https://f292a3137990.ngrok.io/predict-digit",{
             method:"POST",
             body:data,
             headers:{
